@@ -91,16 +91,7 @@ const IndexPage = () => {
         >
           Div1
         </div>
-        <div
-          className="col-3 col-md-3"
-          style={{
-            height: "100%",
-            backgroundColor: "black",
-            borderRight: "1px solid white",
-          }}
-        >
-          Div2
-        </div>
+        <div className={`${IndexStyles.div2} ${"col-3 col-md-3"}`}>Div2</div>
         <div
           className="col-3 col-md-3"
           style={{

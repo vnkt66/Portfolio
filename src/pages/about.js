@@ -23,7 +23,7 @@ const AboutPage = () => {
             style={{
               position: "relative",
               overflow: "hidden",
-              padding: "90px 0 40px 0px",
+              padding: "130px 0 40px 0px",
             }}
           >
             <p className={AboutStyles.one}>HELLO</p>
@@ -38,7 +38,6 @@ const AboutPage = () => {
             <p className={AboutStyles.six}>APPLICATIONS.</p>
           </div>
         </div>
-        <hr />
         <div className="row py-md-5" style={{ overflow: "hidden" }}>
           <div
             className="col-sm m-0 p-0 px-sm-4 order-md-1 col-md-6"
@@ -158,8 +157,7 @@ const AboutPage = () => {
             </div>
           </div>
         </div>
-        <hr />
-        <div className="row py-2 py-md-5" style={{ overflow: "hidden" }}>
+        <div className="row py-5" style={{ overflow: "hidden" }}>
           <div
             className="col-sm m-0 p-0 px-sm-4 order-md-2 col-md-6"
             style={{
@@ -215,7 +213,6 @@ const AboutPage = () => {
             </div>
           </div>
         </div>
-        <hr />
         <div className="row pt-2 pt-md-5" style={{ overflow: "hidden" }}>
           <div className="col-12 m-0 p-0 py-5" style={{ overflow: "hidden" }}>
             <div className={AboutStyles.projects}>

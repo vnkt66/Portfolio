@@ -33,6 +33,11 @@
   opacity: 0;
   transform: translateY(50);
 }
+.div2 {
+  height: 100%;
+  background-color: black;
+  border-right: 1px solid white;
+}
 @media only screen and (max-width: 1280px) {
   .venkanna_penubothu {
     margin-top: 60%;
@@ -62,5 +67,10 @@
   }
   .designer {
     left: 160px;
+  }
+  .div2 {
+    height: 100%;
+    background-color: black;
+    border-right: none;
   }
 }
