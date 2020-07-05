@@ -1,0 +1,66 @@
+.venkanna_penubothu {
+  margin-bottom: 0px;
+  font-size: 75px;
+  font-weight: 900;
+  letter-spacing: 0.062em;
+  margin-top: 32%;
+  line-height: 118px;
+  color: #1c93d2;
+}
+.co_de_te {
+  position: absolute;
+  color: white;
+  top: 47%;
+  left: 40%;
+  font-size: 22px;
+  letter-spacing: 0.08em;
+}
+.coder {
+  position: absolute;
+  left: 0px;
+  opacity: 0;
+  transform: translateY(50);
+}
+.teacher {
+  position: absolute;
+  left: 80px;
+  opacity: 0;
+  transform: translateY(50);
+}
+.designer {
+  position: absolute;
+  left: 181px;
+  opacity: 0;
+  transform: translateY(50);
+}
+@media only screen and (max-width: 1280px) {
+  .venkanna_penubothu {
+    margin-top: 60%;
+    font-size: 55px;
+    letter-spacing: -0.117em;
+  }
+  .co_de_te {
+    left: 32%;
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .venkanna_penubothu {
+    letter-spacing: -0.159em;
+    font-size: 72px;
+    margin-top: 57%;
+  }
+  .co_de_te {
+    font-size: 20px;
+    left: 17%;
+  }
+  .coder {
+    left: 0px;
+  }
+  .teacher {
+    left: 70px;
+  }
+  .designer {
+    left: 160px;
+  }
+}

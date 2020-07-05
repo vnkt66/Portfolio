@@ -1,0 +1,391 @@
+.one {
+  font-size: 72px;
+  font-weight: bolder;
+  color: black;
+  margin-left: 44%;
+  line-height: 71px;
+}
+.two {
+  font-size: 37px;
+  color: black;
+  margin-left: 44%;
+  letter-spacing: -0.013em;
+}
+.three,
+.four {
+  margin-left: 44%;
+}
+.three {
+  font-size: 24px;
+  letter-spacing: -0.013em;
+}
+.four {
+  font-size: 17px;
+  letter-spacing: -0.03em;
+}
+.five {
+  font-size: 22px;
+  margin-left: 44%;
+  font-weight: bolder;
+}
+.six {
+  font-size: 32px;
+  margin-left: 44%;
+  font-weight: bolder;
+  letter-spacing: 0.009em;
+}
+.skills,
+.projects {
+  color: black;
+}
+.skills_p,
+.projects_p {
+  font-size: 25px;
+}
+.projects_p {
+  margin-left: 4%;
+}
+.skills_circle {
+  height: 550px;
+  border-radius: 50%;
+  position: relative;
+}
+.html {
+  position: absolute;
+  left: 48%;
+  top: 55%;
+  font-size: 10px;
+  opacity: 0.4;
+}
+
+.css {
+  position: absolute;
+  left: 10%;
+  top: 30%;
+}
+
+.js {
+  position: absolute;
+  left: 40%;
+  top: 17%;
+}
+
+.bootstrap {
+  position: absolute;
+  left: 16%;
+  top: 38%;
+}
+
+.react {
+  position: absolute;
+  left: 13%;
+  top: 68%;
+}
+
+.vue {
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  opacity: 0.4;
+}
+
+.angular {
+  position: absolute;
+  left: 47%;
+  top: 39%;
+  opacity: 0.4;
+  font-size: 11px;
+}
+
+.node {
+  position: absolute;
+  left: 40%;
+  top: 80%;
+}
+
+.php {
+  position: absolute;
+  left: 66%;
+  top: 30%;
+  opacity: 0.7;
+}
+.laravel {
+  position: absolute;
+  top: 34%;
+  left: 71%;
+  opacity: 0.4;
+}
+.django {
+  position: absolute;
+  top: 57%;
+  left: 65%;
+  font-size: 10px;
+  opacity: 0.4;
+}
+.ruby {
+  position: absolute;
+  left: 40%;
+  top: 62%;
+  opacity: 0.8;
+}
+
+.mongo {
+  position: absolute;
+  left: 65%;
+  top: 45%;
+}
+
+.sql {
+  position: absolute;
+  left: 75%;
+  top: 68%;
+  opacity: 0.9;
+}
+
+.redis {
+  position: absolute;
+  left: 80%;
+  top: 50%;
+  opacity: 0.5;
+}
+
+.sqlite {
+  position: absolute;
+  left: 55%;
+  top: 74%;
+  opacity: 0.5;
+}
+.rest {
+  position: absolute;
+  left: 50%;
+  top: 21%;
+  opacity: 0.4;
+}
+.graphql {
+  position: absolute;
+  top: 27%;
+  left: 39%;
+  font-size: 10px;
+  opacity: 0.4;
+}
+.git {
+  position: absolute;
+  top: 45%;
+  left: 34%;
+  opacity: 0.4;
+  font-size: 13px;
+}
+.experiences_p {
+  font-size: 25px;
+  color: black;
+  position: relative;
+}
+.experienceschildren {
+  position: relative;
+  width: 350px;
+  height: 380px;
+  margin: 0;
+}
+.experienceschildrenone {
+  border: 3px solid black;
+  position: relative;
+  width: 350px;
+  height: 380px;
+}
+.experiences_jp_morgan {
+  top: 22%;
+}
+.experience_num {
+  position: absolute;
+  width: 40px;
+  left: 5px;
+  font-size: 25px;
+  top: 5px;
+  text-align: center;
+  border: 3px solid black;
+  border-radius: 44%;
+  font-weight: bolder;
+  color: black;
+  height: 44px;
+}
+.experience_work {
+  position: absolute;
+  left: 50px;
+  top: 5px;
+  color: black;
+}
+.experience_pos {
+  position: absolute;
+  left: 50px;
+  top: 28px;
+  color: black;
+  font-size: 16px;
+}
+.experience_icon_loc {
+  position: absolute;
+  left: 10px;
+  top: 65px;
+}
+.experience_loc {
+  vertical-align: bottom;
+}
+.experience_desc_ul {
+  position: absolute;
+  left: 0px;
+  top: 140px;
+  text-align: justify;
+  font-size: 15px;
+}
+.image_relative_one {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  margin-left: 2%;
+  overflow: hidden;
+}
+.imageone_absolute_one {
+  border: 3px solid black;
+  position: absolute;
+  left: 2%;
+  height: 220px;
+  width: 200px;
+  text-align: center;
+}
+.image_relative_two {
+  position: relative;
+  height: 110px;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.imagetwo_absolute_one {
+  border: 3px solid black;
+  position: absolute;
+  left: 30%;
+  height: 220px;
+  width: 200px;
+  text-align: center;
+}
+.imagethree_absolute_one {
+  border: 3px solid black;
+  position: absolute;
+  left: 58%;
+  height: 220px;
+  width: 200px;
+  text-align: center;
+}
+.imagefour_absolute_one {
+  border: 3px solid black;
+  position: absolute;
+  left: 83%;
+  height: 220px;
+  width: 200px;
+  text-align: center;
+}
+.work {
+  margin-bottom: 0px;
+  font-size: 55px;
+  font-weight: 900;
+  line-height: 65px;
+  font-style: normal;
+  letter-spacing: -0.015em;
+  color: black;
+  margin: 0;
+}
+.email {
+  color: #1c93d2c4;
+  padding-bottom: 2px;
+  border-bottom: 4px solid #1c93d2c4;
+  transition: all 100ms ease;
+}
+.email:hover {
+  text-decoration: none;
+  border-bottom: none;
+  color: #1c93d2c4;
+}
+@media only screen and (max-width: 1280px) {
+  .image_relative_one {
+    height: 550px;
+    margin-left: 4%;
+  }
+  .imageone_absolute_one {
+    width: 170px;
+    left: 0%;
+  }
+  .imagetwo_absolute_one {
+    width: 170px;
+    left: 52%;
+  }
+  .imagethree_absolute_one {
+    width: 170px;
+    top: 50%;
+    left: 0%;
+  }
+  .imagefour_absolute_one {
+    width: 170px;
+    top: 50%;
+    left: 52%;
+  }
+  .work {
+    font-size: 35px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .skills,
+  .projects {
+    margin: 0;
+  }
+  .experienceschildren {
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .one {
+    margin-left: 3%;
+  }
+  .two {
+    margin-left: 3%;
+  }
+  .three,
+  .four {
+    margin-left: 3%;
+  }
+  .five {
+    margin-left: 3%;
+  }
+  .six {
+    margin-left: 3%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .skills {
+    margin: 0;
+  }
+  .projects {
+    margin: 0 0 5% 0;
+  }
+  .skills_p,
+  .projects_p {
+    margin: 0;
+  }
+
+  .experiences {
+    margin: 0;
+  }
+  .experiences_p {
+    margin-left: 0;
+  }
+  .experiences_jp_morgan {
+    top: 0;
+  }
+  .experienceschildren_jp_morgan {
+    margin: auto;
+  }
+  .image_relative_one {
+    height: 550px;
+    margin-left: 0;
+  }
+  .work {
+    font-size: 38px;
+  }
+}

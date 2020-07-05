@@ -1,0 +1,80 @@
+.venkanna {
+  font-size: 25px;
+  font-weight: 800;
+  color: #1c93d2;
+}
+.title {
+  color: #1c93d2;
+}
+.title:hover {
+  text-decoration: none;
+  color: #1c93d2;
+}
+.great_day {
+  font-size: 15px;
+  font-weight: 900;
+  padding-left: 25%;
+}
+.github {
+  font-size: 15px;
+  font-weight: 900;
+  line-height: 44px;
+  padding-bottom: 2px;
+  transition: border 150ms ease;
+}
+.github:hover {
+  border-bottom: 4px solid black;
+}
+.linkedin {
+  font-size: 15px;
+  font-weight: 900;
+  margin-left: 25%;
+  padding-bottom: 2px;
+  transition: border 150ms ease;
+}
+.linkedin:hover {
+  border-bottom: 4px solid black;
+}
+.link_right {
+  color: hsla(0, 0%, 0%, 0.8);
+}
+/* .right_two:after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 20px;
+  bottom: 0px;
+  border-bottom: 4px solid black;
+} */
+.link_right:hover {
+  color: black;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1300px) {
+  .great_day {
+    padding-left: 15%;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .great_day {
+    padding-left: 4%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .venkanna {
+    font-size: 20px;
+  }
+  .great_day {
+    padding-left: 15%;
+    font-size: 15px;
+  }
+  .github {
+    font-size: 15px;
+  }
+  .linkedin {
+    font-size: 15px;
+    margin-left: 10%;
+  }
+}
