@@ -23,7 +23,7 @@ const AboutPage = () => {
             style={{
               position: "relative",
               overflow: "hidden",
-              padding: "130px 0 40px 0px",
+              padding: "130px 0 80px 0px",
             }}
           >
             <p className={AboutStyles.one}>HELLO</p>
@@ -157,7 +157,7 @@ const AboutPage = () => {
             </div>
           </div>
         </div>
-        <div className="row py-5" style={{ overflow: "hidden" }}>
+        <div className="row" style={{ overflow: "hidden", padding: '100px 0 50px 0'}}>
           <div
             className="col-sm m-0 p-0 px-sm-4 order-md-2 col-md-6"
             style={{
